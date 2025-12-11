@@ -1,16 +1,15 @@
 import { jsxDEV } from "react/jsx-dev-runtime";
 import React from "react";
-import hero from "../../assets/hero/profile.png"
+import hero from "../../assets/hero/portfolio_transparent.png"
 import styles from "../Hero/Hero.module.css"
 
 export const Hero = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
-        <h1 className={styles.title}>Hi, I'm Geo</h1>
+        <h1 className={styles.title}>Hi, I'm Geoffrey Grey</h1>
         <p className={styles.description}>
-          I'm a full-stack developer with 5 years of experience using React and
-          NodeJS. Reach out if you'd like to learn more!
+          I'm a fresh graduate with hands-on experience in React, HTML, CSS, and foundational database concepts. I'm eager to contribute to real-world projects and continue growing my skills. Feel free to reach out if you'd like to connect!
         </p>
         <a href="mailto:gnualdagrey@email.com" className={styles.contactBtn}>
           Contact Me
@@ -20,6 +19,8 @@ export const Hero = () => {
         src={hero}
         alt="Hero image of me"
         className={styles.heroImg}
+        width={200}
+
       />
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />

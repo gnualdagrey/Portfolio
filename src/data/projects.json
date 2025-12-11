@@ -1,26 +1,49 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    
-    "source": "https://www.github.com"
+    "title": "Example Web App",
+    "imageSrc": "Projects/project1.png",
+    "description": "A responsive web application showcasing modern design principles and interactive features.",
+    "skills": [
+      "React",
+      "HTML",
+      "CSS",
+      "React Router"
+    ],
+    "source": "https://gnualdagrey.github.io/first-proj/"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-  
-    "source": "https://www.github.com"
+    "title": "Example Portfolio",
+    "imageSrc": "Projects/project2.png",
+    "description": "A clean and professional portfolio website highlighting projects and skills.",
+    "skills": [
+      "React",
+      "HTML",
+      "CSS"
+    ],
+    "source": "https://gnualdagrey.github.io/"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-   
-    "source": "https://www.github.com"
+    "title": "E-commerce Platform",
+    "imageSrc": "Projects/e-commerce.png",
+    "description": "A full-featured e-commerce website with product listings, shopping cart, and checkout functionality.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "State Management"
+    ],
+    "source": "https://gnualdagrey.github.io/e-commerce/"
+  },
+  {
+    "title": "Admin Dashboard",
+    "imageSrc": "Projects/dashboard.png",
+    "description": "An interactive admin dashboard with CRUD operations, routing, and data visualization.",
+    "skills": [
+      "React",
+      "React Router",
+      "JavaScript",
+      "CSS"
+    ],
+    "source": "https://gnualdagrey.github.io/dashboard/"
   }
 ]

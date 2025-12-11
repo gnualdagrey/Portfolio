@@ -4,8 +4,8 @@ import email from '../../../public/contact/emailIcon.png'
 import github from '../../../public/contact/githubIcon.png'
 export default function Contact() {
   return (
-    <footer  id="contact" className={styles.container}>
-      <div  className={styles.text}>
+    <footer id="contact" className={styles.container}>
+      <div className={styles.text}>
         <h2>Contact</h2>
         <p>Feel free to reach out!</p>
       </div>
@@ -16,7 +16,7 @@ export default function Contact() {
         </li>
         <li className={styles.link}>
           <img src={github} alt="emailIcon" />
-          <a href="mailto:gnualdagrey@gmail.com">Github</a>
+          <a href="https://github.com/gnualdagrey">Github</a>
         </li>
       </ul>
     </footer>

@@ -1,26 +1,60 @@
 @import '../../var.css';
 
 .container {
-  margin-top: 76px;
+  margin-top: 100px;
+  margin-bottom: 100px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
 }
 
 .title {
-  font-size: 35px;
+  font-size: 48px;
   font-weight: 700;
-  letter-spacing: 1.75px;
+  letter-spacing: 2px;
   text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+  background: linear-gradient(135deg, #fff 0%, rgba(87, 108, 188, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+}
+
+.title::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, transparent, #576cbc, transparent);
+  border-radius: 2px;
 }
 
 .projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 40px;
   width: 100%;
+  justify-items: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .projects {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
 }
