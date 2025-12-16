@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // Force rebuild - fixing 404 errors
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio/',
+  base: '/',
   css: {
     localsConvention: "camelCase "
   }
