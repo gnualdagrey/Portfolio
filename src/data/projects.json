@@ -9,7 +9,8 @@
       "CSS",
       "React Router"
     ],
-    "source": "https://gnualdagrey.github.io/first-proj/"
+    "demo": "https://gnualdagrey.github.io/first-proj/",
+    "source": "https://github.com/gnualdagrey/first-proj"
   },
   {
     "title": "Example Portfolio",
@@ -20,7 +21,8 @@
       "HTML",
       "CSS"
     ],
-    "source": "https://gnualdagrey.github.io/"
+    "demo": "https://gnualdagrey.github.io/",
+    "source": "https://github.com/gnualdagrey/"
   },
   {
     "title": "E-commerce Platform",
@@ -32,7 +34,8 @@
       "CSS",
       "State Management"
     ],
-    "source": "https://gnualdagrey.github.io/e-commerce/"
+    "demo": "https://gnualdagrey.github.io/e-commerce/",
+    "source": "https://github.com/gnualdagrey/e-commerce"
   },
   {
     "title": "Admin Dashboard",
@@ -44,6 +47,7 @@
       "JavaScript",
       "CSS"
     ],
-    "source": "https://gnualdagrey.github.io/dashboard/"
+    "demo": "https://gnualdagrey.github.io/dashboard/",
+    "source": "https://github.com/gnualdagrey/dashboard"
   }
 ]
