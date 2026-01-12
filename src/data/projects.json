@@ -49,5 +49,31 @@
     ],
     "demo": "https://gnualdagrey.github.io/dashboard/",
     "source": "https://github.com/gnualdagrey/dashboard"
+  },
+  {
+    "title": "Car Rental System",
+    "imageSrc": "Projects/car-rental.png",
+    "description": "A modern car rental platform that allows users to browse available vehicles, make reservations, and manage their bookings seamlessly.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "State Management"
+    ],
+    "demo": "https://gnualdagrey.github.io/car-rental/",
+    "source": "https://github.com/gnualdagrey/car-rental"
+  },
+  {
+    "title": "Doctor Appointment System",
+    "imageSrc": "Projects/doc-reservation.png",
+    "description": "An intuitive healthcare appointment scheduling system designed to help patients find doctors and book consultations efficiently.",
+    "skills": [
+      "React",
+      "JavaScript",
+      "CSS",
+      "API Integration"
+    ],
+    "demo": "https://gnualdagrey.github.io/doctor-reservation/",
+    "source": "https://github.com/gnualdagrey/doctor-reservation"
   }
 ]
