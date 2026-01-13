@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../Contact/Contact.module.css'
-import email from '../../../public/contact/emailIcon.png'
-import github from '../../../public/contact/githubIcon.png'
+import email from '../../assets/contact/emailIcon.png'
+import github from '../../assets/contact/githubIcon.png'
 export default function Contact() {
   return (
     <footer id="contact" className={styles.container}>
